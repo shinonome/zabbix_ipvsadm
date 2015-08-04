@@ -18,5 +18,5 @@ UserParameter=ipvsadm.discovery,/etc/zabbix/ipvsadm_discover.sh
 Defaults:zabbix !requiretty
 zabbix	ALL=(ALL)	NOPASSWD: /sbin/ipvsadm
 ```
-* Then test "zabbix_get -s <<HOST>> -k ipvsadm.discovery"
+* Then test "zabbix_get -s IPADDRESS -k ipvsadm.discovery"
 * If above is OK, import the template "Template_LVS_connections.xml" to zabbix server.
