@@ -2,7 +2,7 @@
 Thanks for shota https://www.zabbix.com/forum/showthread.php?t=12086
 
 This program based on above.
-For monitoring Linux Virtual Server statictics.
+For monitoring Linux Virtual Server statistics.
 
 ## Usage
 * Put ipvsadm_discover.sh and ipvsadm.py into /etc/zabbix/ as executable.
